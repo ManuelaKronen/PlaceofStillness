@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Psychic Predictions with Astrology and Tarot"
+    />
+    <meta
+      name="keywords"
+      content="psychic, predictions, astrology, tarot, transits"
+    />
+    <meta name="author" content="Manuela Kronen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Place of Stillness Astrology</title>
+    <link rel="icon" href="assets/images/icon.png" />
+    <link
+      rel="stylesheet"
+      href="/Users/placeofstillness/Documents/2025_Code/250218_website03/assets/css/styles.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navcanvas">
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="astro.html">Astrology</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="maincanvas">
+        <section class="pageintro">
+          <h1>Shop</h1>
+          <h2><i> - Would you like to purchase a service? - </i></h2>
+        </section>
+        <div class="productcontainer" style="background-color: #c6e8ff">
+          <img
+            src="assets/images/astrology.jpg"
+            alt="Birth Chart Reading"
+            class="productpicture"
+          />
+          <div class="producttext">
+            <h3>Astrology - Tarot - Healing</h3>
+            <p>
+              Most situations in life do not come with an instruction booklet.
+              It is our responsibility to understand our calling in life, partly
+              fired by desire, partly inhibited by fear. While not providing
+              definite answers or limiting your free will to shape your life,
+              astrology and tarot readings are a powerful tool, helping you to
+              set course.
+              <br /><br />
+              <button class="bookingbutton" id="bookingbutton1" type="button">
+                Book now!
+              </button>
+            </p>
+            <div class="bookingform">
+              <form
+                class="contactformcontainer"
+                id="bookingformphp"
+                method="post"
+              >
+                <fieldset class="fieldname" name="personaldetailsfieldset">
+                  <h4>Personal details*</h4>
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    name="firstname"
+                    required
+                  />
+                  <input
+                    type="text"
+                    placeholder="Family Name"
+                    name="familyname"
+                    required
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                  />
+                </fieldset>
+                <fieldset class="fieldtext" name="messagefieldset">
+                  <h4>Your message*</h4>
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                </fieldset>
+                <fieldset class="fieldbooking" name="bookingfieldset">
+                  <h4>Subject</h4>
+                  <select name="readings">
+                    <option diabled>-- Readings --</option>
+                    <option>Birth Chart Reading</option>
+                    <option>Year Ahead Transit Reading</option>
+                    <option>Healing Tree Reading</option>
+                    <option>Spiritual Coaching Session</option>
+                    <option>Quick Fix Reading</option>
+                    <option>Lightning Strikes Reading</option>
+                    <option diabled>-- Other --</option>
+                    <option selected>Ask general question</option>
+                    <option>Tailor made service</option>
+                  </select>
+                </fieldset>
+                <fieldset class="fieldbirthdata" name="birthdatafieldset">
+                  <h4>Birth data</h4>
+                  <input
+                    type="date"
+                    placeholder="Date of Birth"
+                    name="dateofbirth"
+                  />
+                  <input
+                    type="time"
+                    placeholder="Time of Birth"
+                    name="timeofbirth"
+                  />
+                  <input
+                    type="text"
+                    placeholder="City of Birth"
+                    name="cityofbirth"
+                  />
+                </fieldset>
+                <fieldset class="fieldsubmit" name="submitfieldset">
+                  <button class="bookingbutton" id="sendbutton" type="submit">
+                    Send
+                  </button>
+                  <button class="close-form">Cancel</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="productcontainer">
+          <img
+            src="assets/images/birthchart.jpg"
+            alt="Birth Chart Reading"
+            class="productpicture"
+          />
+          <div class="producttext">
+            <h3>Birth Chart Reading</h3>
+            <p>
+              A Birth Chart Reading gets you in touch with your destiny. We are
+              laying out the astrological map of the zodiac while interpreting
+              the meaning of each planet with each of their given placements.
+              Depending on your needs we will speak about your calling in life
+              or specific questions pertaining to your current situation and
+              potential opportunities. The reading is 90 minutes long and will
+              be provided in a recorded online session. <br /><br />
+              <button class="pricebutton" type="button">Price 111€</button>
+            </p>
+          </div>
+        </div>
+        <div class="productcontainer">
+          <img
+            src="assets/images/transitreading.jpg"
+            alt="Transit Reading"
+            class="productpicture"
+          />
+          <div class="producttext">
+            <h3>Year Ahead Transit Reading</h3>
+            <p>
+              A Year Ahead Transit Reading is a follow-up reading after I have
+              read your birth chart. In transit reading we are looking at the
+              upcoming astrological events and how they apply to your birth
+              chart and life situation. Transit readings can be inspirational,
+              problem solving, preparatory and much more. The reading is 75
+              minutes long and will be provided in a recorded online session.
+              <br /><br />
+              <button class="pricebutton" type="button">Price 99€</button>
+            </p>
+          </div>
+        </div>
+        <div class="productcontainer">
+          <img
+            src="assets/images/healingtree.jpg"
+            alt="Healing Tree Reading"
+            class="productpicture"
+          />
+          <div class="producttext">
+            <h3>Healing Tree Tarot Reading</h3>
+            <p>
+              The Healing Tree Tarot reading provides you with deep insights
+              into your past, present, and future, illuminating the issues that
+              might hold you back and need unpacking, while directing you
+              towards your dormant potential. You will receive an astrological
+              add-on for free. The reading is 60 minutes long and will be
+              provided in a recorded online session. <br /><br />
+              <button class="pricebutton" type="button">Price 88€</button>
+            </p>
+          </div>
+        </div>
+        <div class="productcontainer">
+          <img
+            src="assets/images/coaching.jpg"
+            alt="Spiritual Coaching"
+            class="productpicture"
+          />
+          <div class="producttext">
+            <h3>Spiritual Coaching Session</h3>
+            <p>
+              The Spiritual Coaching Session is the chamaeloen of readings. You
+              come to the session and bring up whatever lies close to your
+              heart. It is your time to speak, your time to be heard, your time
+              to ask away. You can ask for card draws and quick astro readings.
+              The reading is 50 minutes long and will be provided in a recorded
+              online session. <br /><br />
+              <button class="pricebutton" type="button">Price 77€</button>
+            </p>
+          </div>
+        </div>
+        <div class="productcontainer">
+          <img
+            src="assets/images/quickfix.jpg"
+            alt="Quick Fix Reading"
+            class="productpicture"
+          />
+          <div class="producttext">
+            <h3>Quick Fix Reading</h3>
+            <p>
+              The Quick Fix Reading is a short format reading where you can ask
+              about anything and I will draw cards to illuminate your questions.
+              The reading is 15 minutes long and will be provided in a recorded
+              online session. <br /><br />
+              <button class="pricebutton" type="button">Price 33€</button>
+            </p>
+          </div>
+        </div>
+        <div class="productcontainer">
+          <img
+            src="assets/images/lightning.jpg"
+            alt="Lightning Strikes Reading"
+            class="productpicture"
+          />
+          <div class="producttext">
+            <h3>Lightning Strikes Reading</h3>
+            <p>
+              The Lightning Strikes Reading is an appetiser reading where you
+              will receive a super short and quick answer to one question. The
+              reading is 5 minutes long and will be provided in a recorded
+              online session. <br /><br />
+              <button class="pricebutton" type="button">Price 11€</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footcanvas">
+        <div class="footbar">
+          <ul class="footlist1">
+            <li>Manuela Kronen</li>
+            <li>Place of Stillness</li>
+            <li>
+              <i
+                ><span class="slogan"
+                  >your trusted
+                  <abbr title="crazy in love with planets"
+                    >planetiac</abbr
+                  ></span
+                ></i
+              >
+            </li>
+            <li>Terms & Conditions</li>
+            <li>&#169;2025</li>
+          </ul>
+          <ul class="footlist2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="astro.html">Astrology</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="footlist3">
+            <li>
+              <a
+                href="https://www.instagram.com/place_of_stillness/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/Users/placeofstillness/Documents/2025_Code/250218_website03/assets/images/instagram.png"
+                  alt="Instagram"
+                  title="Instagram"
+                  class="image_logo"
+                />
+                <span class="tooltip">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@place_of_stillness"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/Users/placeofstillness/Documents/2025_Code/250218_website03/assets/images/youtube.png"
+                  alt="YouTube"
+                  title="YouTube"
+                  class="image_logo"
+                />
+                <span class="tooltip">YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@place_of_stillness"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/Users/placeofstillness/Documents/2025_Code/250218_website03/assets/images/tiktok.png"
+                  alt="TikTok"
+                  title="TikTok"
+                  class="image_logo"
+                />
+                <span class="tooltip">TikTok</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.pinterest.com/place_of_stillness/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/Users/placeofstillness/Documents/2025_Code/250218_website03/assets/images/pinterest.png"
+                  alt="Pinterest"
+                  title="Pinterest"
+                  class="image_logo"
+                />
+                <span class="tooltip">Pinterest</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+      jQuery
+    </script>
+    <script src="assets/js/shop.js"></script>
+  </body>
+</html>
